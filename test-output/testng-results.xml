@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-14T18:25:19 IST" name="All Test Suite" finished-at="2024-04-14T18:30:16 IST" duration-ms="297292">
+    <groups>
+    </groups>
+    <test started-at="2024-04-14T18:25:19 IST" name="C:/Users/divya/IdeaProjects/SpicejetAutomationProject" finished-at="2024-04-14T18:30:16 IST" duration-ms="297292">
+      <class name="TestCases.TC_08_ValidationFields">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_08_ValidationFields@2ddc8ecb]" started-at="2024-04-14T18:30:00 IST" name="launchBrowser" finished-at="2024-04-14T18:30:12 IST" duration-ms="11765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testValidation()[pri:0, instance:TestCases.TC_08_ValidationFields@2ddc8ecb]" started-at="2024-04-14T18:30:12 IST" name="testValidation" finished-at="2024-04-14T18:30:16 IST" duration-ms="4156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_08_ValidationFields@2ddc8ecb]" started-at="2024-04-14T18:30:16 IST" name="closeBrowser" finished-at="2024-04-14T18:30:16 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_08_ValidationFields -->
+      <class name="TestCases.TC_01_SignUp">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:25:19 IST" name="launchBrowser" finished-at="2024-04-14T18:25:33 IST" duration-ms="13427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testSignup()[pri:1, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:25:33 IST" name="testSignup" finished-at="2024-04-14T18:25:48 IST" duration-ms="15637" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at TestCases.TC_01_SignUp.testSignup(TC_01_SignUp.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:25:48 IST" name="closeBrowser" finished-at="2024-04-14T18:25:49 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:25:49 IST" name="launchBrowser" finished-at="2024-04-14T18:26:01 IST" duration-ms="11685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testInvalidSignup()[pri:2, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:26:01 IST" name="testInvalidSignup" finished-at="2024-04-14T18:26:13 IST" duration-ms="12312" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at TestCases.TC_01_SignUp.testInvalidSignup(TC_01_SignUp.java:148)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSignup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_01_SignUp@7ea37dbf]" started-at="2024-04-14T18:26:13 IST" name="closeBrowser" finished-at="2024-04-14T18:26:14 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_01_SignUp -->
+      <class name="TestCases.TC_06_FlightSelection">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_06_FlightSelection@6ce139a4]" started-at="2024-04-14T18:28:47 IST" name="launchBrowser" finished-at="2024-04-14T18:28:59 IST" duration-ms="11373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testFlightSelection()[pri:0, instance:TestCases.TC_06_FlightSelection@6ce139a4]" started-at="2024-04-14T18:28:59 IST" name="testFlightSelection" finished-at="2024-04-14T18:29:08 IST" duration-ms="9702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSelection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_06_FlightSelection@6ce139a4]" started-at="2024-04-14T18:29:08 IST" name="closeBrowser" finished-at="2024-04-14T18:29:09 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_06_FlightSelection -->
+      <class name="TestCases.TC_03_InvalidLoginAttempts">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:26:53 IST" name="launchBrowser" finished-at="2024-04-14T18:27:05 IST" duration-ms="11987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testWithInvalidUsername()[pri:1, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:05 IST" name="testWithInvalidUsername" finished-at="2024-04-14T18:27:11 IST" duration-ms="5927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInvalidUsername -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:11 IST" name="closeBrowser" finished-at="2024-04-14T18:27:12 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:12 IST" name="launchBrowser" finished-at="2024-04-14T18:27:23 IST" duration-ms="11762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testWithInvalidPassword()[pri:2, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:23 IST" name="testWithInvalidPassword" finished-at="2024-04-14T18:27:28 IST" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInvalidPassword -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:28 IST" name="closeBrowser" finished-at="2024-04-14T18:27:29 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:29 IST" name="launchBrowser" finished-at="2024-04-14T18:27:41 IST" duration-ms="11706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testWithEmptyCredentials()[pri:3, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:41 IST" name="testWithEmptyCredentials" finished-at="2024-04-14T18:27:46 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithEmptyCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:46 IST" name="closeBrowser" finished-at="2024-04-14T18:27:46 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:46 IST" name="launchBrowser" finished-at="2024-04-14T18:27:58 IST" duration-ms="11809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testInvalidMobileNumber()[pri:4, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:27:58 IST" name="testInvalidMobileNumber" finished-at="2024-04-14T18:28:04 IST" duration-ms="5851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidMobileNumber -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_03_InvalidLoginAttempts@15b204a1]" started-at="2024-04-14T18:28:04 IST" name="closeBrowser" finished-at="2024-04-14T18:28:05 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_03_InvalidLoginAttempts -->
+      <class name="TestCases.TC_05_RoundTripFlightSearch">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_05_RoundTripFlightSearch@1fe20588]" started-at="2024-04-14T18:28:26 IST" name="launchBrowser" finished-at="2024-04-14T18:28:37 IST" duration-ms="10972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testRoundTrip()[pri:0, instance:TestCases.TC_05_RoundTripFlightSearch@1fe20588]" started-at="2024-04-14T18:28:37 IST" name="testRoundTrip" finished-at="2024-04-14T18:28:47 IST" duration-ms="9971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoundTrip -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_05_RoundTripFlightSearch@1fe20588]" started-at="2024-04-14T18:28:47 IST" name="closeBrowser" finished-at="2024-04-14T18:28:47 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_05_RoundTripFlightSearch -->
+      <class name="TestCases.TC_02_ValidLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:14 IST" name="launchBrowser" finished-at="2024-04-14T18:26:26 IST" duration-ms="12256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testValidEmailLoginCredentials()[pri:1, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:26 IST" name="testValidEmailLoginCredentials" finished-at="2024-04-14T18:26:32 IST" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidEmailLoginCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:32 IST" name="closeBrowser" finished-at="2024-04-14T18:26:33 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:33 IST" name="launchBrowser" finished-at="2024-04-14T18:26:45 IST" duration-ms="11751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testValidMobileLogin()[pri:2, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:45 IST" name="testValidMobileLogin" finished-at="2024-04-14T18:26:52 IST" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidMobileLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_02_ValidLogin@124c278f]" started-at="2024-04-14T18:26:52 IST" name="closeBrowser" finished-at="2024-04-14T18:26:53 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_02_ValidLogin -->
+      <class name="TestCases.TC_07_FlightBookingWithPayment">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_07_FlightBookingWithPayment@6973bf95]" started-at="2024-04-14T18:29:09 IST" name="launchBrowser" finished-at="2024-04-14T18:29:21 IST" duration-ms="11692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testFlightBooking()[pri:0, instance:TestCases.TC_07_FlightBookingWithPayment@6973bf95]" started-at="2024-04-14T18:29:21 IST" name="testFlightBooking" finished-at="2024-04-14T18:29:59 IST" duration-ms="38350" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at TestCases.TC_07_FlightBookingWithPayment.testFlightBooking(TC_07_FlightBookingWithPayment.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_07_FlightBookingWithPayment@6973bf95]" started-at="2024-04-14T18:29:59 IST" name="closeBrowser" finished-at="2024-04-14T18:30:00 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_07_FlightBookingWithPayment -->
+      <class name="TestCases.TC_04_OnewayFlightSearch">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCases.TC_04_OnewayFlightSearch@77167fb7]" started-at="2024-04-14T18:28:05 IST" name="launchBrowser" finished-at="2024-04-14T18:28:17 IST" duration-ms="11884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="onewaySearchFlight()[pri:0, instance:TestCases.TC_04_OnewayFlightSearch@77167fb7]" started-at="2024-04-14T18:28:17 IST" name="onewaySearchFlight" finished-at="2024-04-14T18:28:25 IST" duration-ms="8586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewaySearchFlight -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.TC_04_OnewayFlightSearch@77167fb7]" started-at="2024-04-14T18:28:25 IST" name="closeBrowser" finished-at="2024-04-14T18:28:26 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.TC_04_OnewayFlightSearch -->
+    </test> <!-- C:/Users/divya/IdeaProjects/SpicejetAutomationProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
