@@ -49,7 +49,7 @@ public class BaseClass {
         }
     }
 
-    @AfterMethod
+   @AfterMethod
     @Parameters("browser")
     public void closeBrowser() {
         driver.quit();
