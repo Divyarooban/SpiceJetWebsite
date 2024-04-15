@@ -40,7 +40,7 @@ public class HomePage extends BasePage{
     @FindBy(xpath="//div[@data-testid='departure-date-dropdown-label-test-id']")
     WebElement departuredate;
 
-    @FindBy(xpath="//div[@data-testid='undefined-calendar-day-17'][1]")
+    @FindBy(xpath="//div[@data-testid='undefined-calendar-day-25'][1]")
     WebElement date;
 
     //Select the departure date
@@ -109,7 +109,7 @@ public class HomePage extends BasePage{
     }
 
     //Select Return Date
-    @FindBy(xpath="(//div[@data-testid='undefined-calendar-day-21'])[1]")
+    @FindBy(xpath="//div[@data-testid='undefined-calendar-day-30'][1]")
     WebElement selectreturndate;
 
     @FindBy(xpath="//div[contains(text(),'Select Date')]")

@@ -11,13 +11,6 @@
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- TestCases.TC_01_SignUp -->
-      <class name="TestCases.TC_07_FlightBookingWithPayment">
-        <methods>
-          <include name="testFlightBooking"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- TestCases.TC_07_FlightBookingWithPayment -->
     </classes>
   </test> <!-- C:/Users/divya/IdeaProjects/SpicejetAutomationProject(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

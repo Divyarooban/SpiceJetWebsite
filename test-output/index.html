@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 3 failed,   10 passed</span>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
                     </span>
                     <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCases.TC_07_FlightBookingWithPayment" class="method navigator-link" hash-for-method="testFlightBooking">testFlightBooking</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="TestCases.TC_01_SignUp" class="method navigator-link" hash-for-method="testInvalidSignup">testInvalidSignup</a> <!-- method navigator-link -->
@@ -128,6 +123,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="TestCases.TC_04_OnewayFlightSearch" class="method navigator-link" hash-for-method="onewaySearchFlight">onewaySearchFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="TestCases.TC_07_FlightBookingWithPayment" class="method navigator-link" hash-for-method="testFlightBooking">testFlightBooking</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -271,104 +271,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-failed -->
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.TC_07_FlightBookingWithPayment</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFlightBooking">
-                  </a> <!-- testFlightBooking -->
-                  <span class="method-name">testFlightBooking</span>
-                  <div class="stack-trace">java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at TestCases.TC_07_FlightBookingWithPayment.testFlightBooking(TC_07_FlightBookingWithPayment.java:100)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.TC_06_FlightSelection</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testFlightSelection">
-                  </a> <!-- testFlightSelection -->
-                  <span class="method-name">testFlightSelection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.TC_04_OnewayFlightSearch</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="onewaySearchFlight">
-                  </a> <!-- onewaySearchFlight -->
-                  <span class="method-name">onewaySearchFlight</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.TC_02_ValidLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidEmailLoginCredentials">
-                  </a> <!-- testValidEmailLoginCredentials -->
-                  <span class="method-name">testValidEmailLoginCredentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidMobileLogin">
-                  </a> <!-- testValidMobileLogin -->
-                  <span class="method-name">testValidMobileLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -380,21 +282,6 @@
                   <a name="testValidation">
                   </a> <!-- testValidation -->
                   <span class="method-name">testValidation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-passed -->
-          <div class="suite-All_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.TC_05_RoundTripFlightSearch</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testRoundTrip">
-                  </a> <!-- testRoundTrip -->
-                  <span class="method-name">testRoundTrip</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -431,6 +318,88 @@
                   <a name="testWithInvalidUsername">
                   </a> <!-- testWithInvalidUsername -->
                   <span class="method-name">testWithInvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_02_ValidLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidEmailLoginCredentials">
+                  </a> <!-- testValidEmailLoginCredentials -->
+                  <span class="method-name">testValidEmailLoginCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidMobileLogin">
+                  </a> <!-- testValidMobileLogin -->
+                  <span class="method-name">testValidMobileLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_07_FlightBookingWithPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlightBooking">
+                  </a> <!-- testFlightBooking -->
+                  <span class="method-name">testFlightBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_06_FlightSelection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlightSelection">
+                  </a> <!-- testFlightSelection -->
+                  <span class="method-name">testFlightSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_04_OnewayFlightSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="onewaySearchFlight">
+                  </a> <!-- onewaySearchFlight -->
+                  <span class="method-name">onewaySearchFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_05_RoundTripFlightSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRoundTrip">
+                  </a> <!-- testRoundTrip -->
+                  <span class="method-name">testRoundTrip</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -535,55 +504,55 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFlightBooking')
 data.setCell(0, 2, 'TestCases.TC_07_FlightBookingWithPayment')
-data.setCell(0, 3, 38350);
+data.setCell(0, 3, 47692);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSignup')
-data.setCell(1, 2, 'TestCases.TC_01_SignUp')
-data.setCell(1, 3, 15637);
+data.setCell(1, 1, 'testValidMobileLogin')
+data.setCell(1, 2, 'TestCases.TC_02_ValidLogin')
+data.setCell(1, 3, 16969);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testInvalidSignup')
+data.setCell(2, 1, 'testSignup')
 data.setCell(2, 2, 'TestCases.TC_01_SignUp')
-data.setCell(2, 3, 12312);
+data.setCell(2, 3, 16957);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testRoundTrip')
-data.setCell(3, 2, 'TestCases.TC_05_RoundTripFlightSearch')
-data.setCell(3, 3, 9971);
+data.setCell(3, 1, 'testInvalidSignup')
+data.setCell(3, 2, 'TestCases.TC_01_SignUp')
+data.setCell(3, 3, 13658);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testFlightSelection')
-data.setCell(4, 2, 'TestCases.TC_06_FlightSelection')
-data.setCell(4, 3, 9702);
+data.setCell(4, 1, 'testValidEmailLoginCredentials')
+data.setCell(4, 2, 'TestCases.TC_02_ValidLogin')
+data.setCell(4, 3, 13507);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'onewaySearchFlight')
 data.setCell(5, 2, 'TestCases.TC_04_OnewayFlightSearch')
-data.setCell(5, 3, 8586);
+data.setCell(5, 3, 11130);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testValidMobileLogin')
-data.setCell(6, 2, 'TestCases.TC_02_ValidLogin')
-data.setCell(6, 3, 7454);
+data.setCell(6, 1, 'testRoundTrip')
+data.setCell(6, 2, 'TestCases.TC_05_RoundTripFlightSearch')
+data.setCell(6, 3, 10983);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testValidEmailLoginCredentials')
-data.setCell(7, 2, 'TestCases.TC_02_ValidLogin')
-data.setCell(7, 3, 6659);
+data.setCell(7, 1, 'testFlightSelection')
+data.setCell(7, 2, 'TestCases.TC_06_FlightSelection')
+data.setCell(7, 3, 10041);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testWithInvalidUsername')
+data.setCell(8, 1, 'testWithInvalidPassword')
 data.setCell(8, 2, 'TestCases.TC_03_InvalidLoginAttempts')
-data.setCell(8, 3, 5927);
+data.setCell(8, 3, 8320);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testInvalidMobileNumber')
+data.setCell(9, 1, 'testWithInvalidUsername')
 data.setCell(9, 2, 'TestCases.TC_03_InvalidLoginAttempts')
-data.setCell(9, 3, 5851);
+data.setCell(9, 3, 7408);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testWithEmptyCredentials')
+data.setCell(10, 1, 'testInvalidMobileNumber')
 data.setCell(10, 2, 'TestCases.TC_03_InvalidLoginAttempts')
-data.setCell(10, 3, 5176);
+data.setCell(10, 3, 6524);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testWithInvalidPassword')
+data.setCell(11, 1, 'testWithEmptyCredentials')
 data.setCell(11, 2, 'TestCases.TC_03_InvalidLoginAttempts')
-data.setCell(11, 3, 5009);
+data.setCell(11, 3, 5887);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testValidation')
 data.setCell(12, 2, 'TestCases.TC_08_ValidationFields')
-data.setCell(12, 3, 4156);
+data.setCell(12, 3, 4401);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -623,180 +592,178 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testSignup</span>
-                <span class="method-start">13429 ms</span>
+                <span class="method-start">12802 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">29080 ms</span>
+                <span class="method-start">29770 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">29796 ms</span>
+                <span class="method-start">30591 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testInvalidSignup</span>
-                <span class="method-start">41481 ms</span>
+                <span class="method-start">43454 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">53794 ms</span>
+                <span class="method-start">57113 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_02_ValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">54479 ms</span>
+                <span class="method-start">57764 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidEmailLoginCredentials</span>
-                <span class="method-start">66736 ms</span>
+                <span class="method-start">70554 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">73397 ms</span>
+                <span class="method-start">84062 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">74077 ms</span>
+                <span class="method-start">86454 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidMobileLogin</span>
-                <span class="method-start">85829 ms</span>
+                <span class="method-start">99826 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">93283 ms</span>
+                <span class="method-start">116797 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_03_InvalidLoginAttempts</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">93919 ms</span>
+                <span class="method-start">117720 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithInvalidUsername</span>
-                <span class="method-start">105908 ms</span>
+                <span class="method-start">130921 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">111836 ms</span>
+                <span class="method-start">138330 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">112453 ms</span>
+                <span class="method-start">139056 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithInvalidPassword</span>
-                <span class="method-start">124215 ms</span>
+                <span class="method-start">153199 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">129225 ms</span>
+                <span class="method-start">161519 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">129929 ms</span>
+                <span class="method-start">162235 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testWithEmptyCredentials</span>
-                <span class="method-start">141635 ms</span>
+                <span class="method-start">174380 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">146812 ms</span>
+                <span class="method-start">180267 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">147342 ms</span>
+                <span class="method-start">181049 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testInvalidMobileNumber</span>
-                <span class="method-start">159153 ms</span>
+                <span class="method-start">198901 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">165004 ms</span>
+                <span class="method-start">205425 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_04_OnewayFlightSearch</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">165580 ms</span>
+                <span class="method-start">206116 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">onewaySearchFlight</span>
-                <span class="method-start">177464 ms</span>
+                <span class="method-start">221707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">186051 ms</span>
+                <span class="method-start">232838 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_05_RoundTripFlightSearch</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">186681 ms</span>
+                <span class="method-start">233632 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRoundTrip</span>
-                <span class="method-start">197653 ms</span>
+                <span class="method-start">249283 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">207626 ms</span>
+                <span class="method-start">260269 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_06_FlightSelection</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">208246 ms</span>
+                <span class="method-start">262512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testFlightSelection</span>
-                <span class="method-start">219619 ms</span>
+                <span class="method-start">275197 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">229321 ms</span>
+                <span class="method-start">285241 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_07_FlightBookingWithPayment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">229947 ms</span>
+                <span class="method-start">287666 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testFlightBooking</span>
-                <span class="method-start">241639 ms</span>
+                <span class="method-start">300191 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">279990 ms</span>
+                <span class="method-start">347884 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.TC_08_ValidationFields</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">280661 ms</span>
+                <span class="method-start">348771 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testValidation</span>
-                <span class="method-start">292426 ms</span>
+                <span class="method-start">361890 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">296583 ms</span>
+                <span class="method-start">366291 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
